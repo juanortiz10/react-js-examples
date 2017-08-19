@@ -1,0 +1,14 @@
+.TodoBox-input{
+  font-size: 1.2em;
+  padding: 2px 4px 2px 4px;
+  font-family: sans-serif;
+}
+
+.TodoBox-button{
+  background-color: #212121;
+  color: #EEEEEE;
+  border: 1px solid #EEEEEE;
+  border-radius: 4px;
+  padding: 8px 8px 5px 8px;
+  font-size: 0.9em;
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+.Login{
+  height: 100vh;
+}
+
+.Login-box{
+  width: 400px;
+  height: 350px;
+  background-color: #607D8B;
+  border-radius: 6px;
+  flex-direction: column;
+}
+
+.Login,
+.Login-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login-box-formbox{
+  display: flex;
+  flex-direction: column;
+}
+
+.Login-box-username,
+.Login-box-password{
+  font-size: 1.1em;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.Login-box-username,
+.Login-box-password,
+.Login-submit{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Login-submit{
+  display: block;
+  margin: 12px auto;
+  background-color: #FFF;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8em;
+  padding: 5px 15px 5px 15px;
+}
+
+.Login-username-input{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  width: 250px;
+  border-radius: 2px;
+  padding: 5px 4px 5px 4px;
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+.Card{
+  display: flex;
+  margin-bottom: 2%;
+}
+
+.Card-img{
+  border-radius: 80px;
+  width: 125px;
+  height: auto;
+}
+
+.Card-text{
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 2px;
+}
